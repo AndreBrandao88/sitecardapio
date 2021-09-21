@@ -134,5 +134,18 @@ footer {
 #order {
 
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-left: auto 20px;
 
+}
+
+#item {
+
+    margin-left: auto 60px;
+    margin: auto;
+}
+
+h1 {
+
+    text-align: center;
 }
