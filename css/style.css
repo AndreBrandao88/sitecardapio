@@ -11,6 +11,12 @@
     padding: 0 ;
 }
 
+body {
+
+    padding: 0px;
+    margin: auto 20px   ;
+}
+
 .index {
 
     height: 100%;
@@ -112,9 +118,9 @@ footer {
     
     text-align: center;
     background-color: grey;
-    margin: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: auto -38px;
+    max-width: 1365px;
+      
 }
 
 .form {
@@ -148,4 +154,28 @@ footer {
 h1 {
 
     text-align: center;
+}
+
+#order1 {
+    display: flex;
+    margin: 50px;
+}
+
+.creditcard {
+
+    margin-left: 50px;
+    padding: 0;
+    
+
+}
+
+.paymant {
+
+    align-content: center;
+    margin: 40px auto;
+    padding: 0;
+    margin-left: 50px ;
+    display: flex;
+    flex-wrap: wrap;
+
 }
