@@ -27,7 +27,7 @@ body {
 
 main_text {
 
-    margin-left: 2px;
+    margin-left: 4px;
 }
 
 header {
@@ -107,10 +107,11 @@ section.sobre {
 
 .interior {
 
+    margin-top: -20px;
     display: flex;
     margin-left: 130px;
-    width: 450px;
-    height: 450 px;
+    width: 400px;
+    height: 400 px;
 
 }
 
@@ -172,10 +173,19 @@ h1 {
 .paymant {
 
     align-content: center;
-    margin: 40px auto;
+    margin: 60px auto;
     padding: 0;
-    margin-left: 50px ;
+    margin-left: 300px ;
+    margin-right: 50px;
     display: flex;
     flex-wrap: wrap;
 
+}
+
+article {
+
+    
+    margin-left: 300px;
+    text-align: justify;
+    
 }
